@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Muhammad Tahir Hussain — AI Engineer & Research Analyst</title>
+<meta name="description" content="Muhammad Tahir Hussain: AI engineer, research analyst, coder and problem solver. Projects synced live from GitHub.">
+<meta name="theme-color" content="#08080c">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Cdefs%3E%3ClinearGradient id='g' x1='0' y1='0' x2='1' y2='1'%3E%3Cstop offset='0' stop-color='%237b5cff'/%3E%3Cstop offset='.5' stop-color='%23ff4fd8'/%3E%3Cstop offset='1' stop-color='%233ee6ff'/%3E%3C/linearGradient%3E%3C/defs%3E%3Ccircle cx='16' cy='16' r='14' fill='url(%23g)'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Syne:wght@500;700;800&family=Manrope:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css?v=1">
+</head>
+<body>
+
+<canvas id="gl" aria-hidden="true"></canvas>
+
+<div class="loader" id="loader" aria-hidden="true">
+  <p class="loader__name"><span>Muhammad</span><span>Tahir</span><span>Hussain</span></p>
+  <p class="loader__count"><span id="loadNum">0</span></p>
+</div>
+
+<div class="cursor" id="cursor" aria-hidden="true"><span id="cursorTxt"></span></div>
+
+<header class="nav">
+  <a href="#top" class="nav__logo" data-cursor="top">TH<sup>©</sup></a>
+  <p class="nav__status"><i></i>Open to opportunities</p>
+  <nav>
+    <a href="#about">About</a>
+    <a href="#work">Work</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<main id="top">
+
+<section class="hero" id="hero">
+  <p class="hero__kicker"><span>Portfolio</span><span>©<span class="yr">2026</span></span><span>AI · Research · Code</span></p>
+  <h1 class="hero__title" aria-label="Muhammad Tahir Hussain">
+    <span class="line" aria-hidden="true"><span class="in">Muhammad</span></span>
+    <span class="line line--2" aria-hidden="true"><span class="in">Tahir</span></span>
+    <span class="line line--3" aria-hidden="true"><span class="in"><em>Hussain</em></span></span>
+  </h1>
+  <div class="hero__foot">
+    <ul class="hero__roles"><li>AI Engineer</li><li>Research Analyst</li><li>Coder</li><li>Problem Solver</li></ul>
+    <p class="hero__scroll" aria-hidden="true">Scroll<i></i></p>
+  </div>
+</section>
+
+<section class="manifesto">
+  <p class="manifesto__label">( 01 — Manifesto )</p>
+  <p class="manifesto__text" id="manifesto">I build systems that learn, and the evidence that they actually do. Language engines in plain C. Reproducible deep-learning research. Data pipelines that hold three million rows together.</p>
+</section>
+
+<section class="about" id="about">
+  <div class="about__media" id="portraitSlot" data-cursor="hello">
+    <img src="assets/img/portrait.webp" width="1100" height="1430" alt="Muhammad Tahir Hussain">
+  </div>
+  <div class="about__copy">
+    <p class="about__label">( 02 — About )</p>
+    <h2 class="reveal-title"><span class="line"><span class="in">Engineer by training.</span></span><span class="line"><span class="in"><em>Researcher</em> by habit.</span></span></h2>
+    <p class="about__body">I like problems that are hard to state and results that are hard to fake. I pre-register claims, seed every run and test the plumbing before the science.</p>
+    <dl class="stats">
+      <div><dt>Rows engineered</dt><dd data-count="3000888">0</dd></div>
+      <div><dt>Experiment runs</dt><dd data-count="3160">0</dd></div>
+      <div><dt>Public repos</dt><dd data-count="12" id="repoCount">0</dd></div>
+    </dl>
+  </div>
+</section>
+
+<section class="work" id="work">
+  <div class="work__pin">
+    <header class="work__head">
+      <p class="about__label">( 03 — Selected work )</p>
+      <p class="work__sync" id="sync">Syncing with GitHub</p>
+    </header>
+    <div class="work__info" id="workInfo">
+      <p class="work__idx"><span id="wIdx">01</span> / <span id="wTot">12</span></p>
+      <h3 class="work__title" id="wTitle">&nbsp;</h3>
+      <p class="work__desc" id="wDesc"></p>
+      <div class="work__meta"><span id="wLang"></span><a id="wLink" href="#" target="_blank" rel="noopener" class="pill" data-cursor="open">View code ↗</a></div>
+    </div>
+    <p class="work__hint">Scroll to turn · Click a card</p>
+  </div>
+  <ol class="work__list" id="workList"></ol>
+</section>
+
+<section class="stack" id="stack">
+  <p class="about__label stack__label">( 04 — Toolkit )</p>
+  <div class="marquee"><div class="marquee__row" id="mq1"></div></div>
+  <div class="marquee marquee--out"><div class="marquee__row" id="mq2"></div></div>
+</section>
+
+<section class="contact" id="contact">
+  <p class="about__label">( 05 — Contact )</p>
+  <h2 class="contact__title" id="contactTitle">Let's build something that <em>thinks.</em></h2>
+  <div class="contact__row">
+    <a class="orb" href="mailto:mtahirhussainofficial@gmail.com" data-magnet data-cursor="write"><span>Say hello</span></a>
+    <ul class="contact__links">
+      <li><a href="https://github.com/MuhammadTahirHussain-Official" target="_blank" rel="noopener" data-cursor="open">GitHub ↗</a></li>
+      <li><a href="https://www.linkedin.com/in/muhammad-tahir-hussain-5ba414403/" target="_blank" rel="noopener" data-cursor="open">LinkedIn ↗</a></li>
+      <li><button type="button" id="copy" data-cursor="copy">Copy email</button></li>
+    </ul>
+  </div>
+  <footer class="foot"><span>© <span class="yr">2026</span> Muhammad Tahir Hussain</span><span>Built by hand with Three.js &amp; GSAP</span><a href="#top">Back to top ↑</a></footer>
+</section>
+
+</main>
+
+<script>(function(){function k(){var l=document.getElementById("loader");if(l&&!window.__started){l.remove();document.documentElement.classList.add("nogl");}}window.addEventListener("error",k);setTimeout(k,9000);})();</script>
+<script src="assets/vendor/three.min.js"></script>
+<script src="assets/vendor/gsap.min.js"></script>
+<script src="assets/vendor/ScrollTrigger.min.js"></script>
+<script src="assets/vendor/lenis.min.js"></script>
+<script src="js/main.js?v=1"></script>
+</body>
+</html>
